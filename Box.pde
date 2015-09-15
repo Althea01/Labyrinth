@@ -4,9 +4,9 @@ class Box{
   float y = 50.0;
   float z = 50.0;
   // These marks the change in position from the center of canvas
-  float tx = 0;
-  float ty = 0;
-  float tz = 0;
+  float Bx = 0;
+  float By = 0;
+  float Bz = 0;
   
   void display(float boxx, float boxy, float boxz){
     // The three variables are the length of main box
@@ -14,11 +14,6 @@ class Box{
     boxy = y;
     boxz = z;
     box(boxx, boxy, boxz);
-  }
- 
-
-
- 
-  
+  } 
 }
 

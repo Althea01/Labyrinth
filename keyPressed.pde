@@ -1,26 +1,26 @@
 void keyPressed(){
     if (keyCode == 'A')
   {
-    box.tx -= 5;
+    box.Bx -= 5;
   }
   else if (keyCode == 'D')
   {
-    box.tx += 5;
+    box.Bx += 5;
   }
   else if (keyCode == 'W')
   {
-    box.ty -= 5;
+    box.By -= 5;
   }
   else if (keyCode == 'S')
   {
-    box.ty += 5;
+    box.By += 5;
   }
   else if (keyCode == 'Q')
   {
-    box.tz += 5;
+    box.Bz += 5;
   }
   else if (keyCode == 'E')
   {
-    box.tz -= 5;
+    box.Bz -= 5;
   }
 }
