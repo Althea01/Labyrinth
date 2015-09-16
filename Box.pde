@@ -1,8 +1,8 @@
 class Box{
   // These marks the three length of the main box
-  float x = 50.0;
-  float y = 50.0;
-  float z = 50.0;
+  float x = 25.0;
+  float y = 25.0;
+  float z = 25.0;
   // These marks the change in position from the center of canvas
   float Bx = 0;
   float By = 0;
