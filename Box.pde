@@ -16,22 +16,6 @@ class Box {
     box(boxx, boxy, boxz);
   } 
 
-  void hit() {
-    if (box.Bx == wall.x+25 && box.By == wall.y && box.Bz == wall.z
-      ||box.Bx == wall.x-25 && box.By == wall.y && box.Bz == wall.z)
-      {
-        xSpeed *= -1;
-      }
-    if (box.Bx == wall.x && box.By == wall.y+25 && box.Bz == wall.z
-      ||box.Bx == wall.x && box.By == wall.y-25 && box.Bz == wall.z)
-      {
-        ySpeed *= -1;
-      }
-    if (box.Bx == wall.x && box.By == wall.y && box.Bz == wall.z+25
-      ||box.Bx == wall.x && box.By == wall.y && box.Bz == wall.z-25)
-      {
-        zSpeed *= -1;
-      }
-  }
+  
 }
 

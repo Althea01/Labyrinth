@@ -16,6 +16,10 @@ class Wall {
     fill(255, 255, 255, alpha);
     box(x, y, z);
     popMatrix();
+    if (-250+box.Bx == wallx && -250+box.By == wally && -200+box.Bz == wallz)
+    {
+      state -= 1;
+    }
   }
 }
 
