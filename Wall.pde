@@ -13,9 +13,9 @@ class Wall {
     // The three variables are the length of main box
     pushMatrix();
     translate(wallx, wally, wallz);
-    if (abs(500+box.Bx-wallx)<75 && abs(300+box.By-wally)<75 && abs(300+box.Bz-wallz)<75){
+    if (abs(500+box.Bx-wallx)<100 && abs(300+box.By-wally)<100 && abs(300+box.Bz-wallz)<100){
       a = sqrt(sq(500+box.Bx-wallx)+sq(300+box.By-wally)+sq(300+box.Bz-wallz));
-      alpha = int(map(a, 25, 75, 255, 0));
+      alpha = int(map(a, 25, 100, 255, 0));
     } else {
       alpha = 0;
     }
