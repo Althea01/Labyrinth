@@ -480,6 +480,75 @@ void draw() {
       wall.display(i*25+wall.x,4*25+wall.y,k*25+wall.z);
     }
   }
+  
+  
+  
+  
+  //19-1~7
+  for(int i=-1;i<=5;i++){
+    for(int k=0;k<=24;k++){
+      wall.display(i*25+wall.x,5*25+wall.y,k*25+wall.z);
+    }
+  }
+  //19-8~16
+  for(int i=6;i<=14;i++){
+    for(int k=0;k<=4;k++){
+      wall.display(i*25+wall.x,5*25+wall.y,k*25+wall.z);
+    }
+  }
+  for(int i=6;i<=14;i++){
+    for(int k=6;k<=18;k++){
+      wall.display(i*25+wall.x,5*25+wall.y,k*25+wall.z);
+    }
+  }
+  for(int i=6;i<=14;i++){
+    for(int k=20;k<=24;k++){
+      wall.display(i*25+wall.x,5*25+wall.y,k*25+wall.z);
+    }
+  }
+  //19-17
+  for(int k=0;k<=4;k++){
+    wall.display(15*25+wall.x,5*25+wall.y,k*25+wall.z);
+  }
+  for(int k=7;k<=17;k++){
+    wall.display(15*25+wall.x,5*25+wall.y,k*25+wall.z);
+  }
+  for(int k=20;k<=24;k++){
+    wall.display(15*25+wall.x,5*25+wall.y,k*25+wall.z);
+  }
+  //19-18
+  for(int k=0;k<=5;k++){
+    wall.display(16*25+wall.x,5*25+wall.y,k*25+wall.z);
+  }
+  for(int k=8;k<=16;k++){
+    wall.display(16*25+wall.x,5*25+wall.y,k*25+wall.z);
+  }
+  for(int k=19;k<=24;k++){
+    wall.display(16*25+wall.x,5*25+wall.y,k*25+wall.z);
+  }
+  //19-19
+  for(int k=0;k<=6;k++){
+    wall.display(17*25+wall.x,5*25+wall.y,k*25+wall.z);
+  }
+  for(int k=10;k<=14;k++){
+    wall.display(17*25+wall.x,5*25+wall.y,k*25+wall.z);
+  }
+  for(int k=18;k<=24;k++){
+    wall.display(17*25+wall.x,5*25+wall.y,k*25+wall.z);
+  }
+  //19-20
+  for(int k=0;k<=8;k++){
+    wall.display(18*25+wall.x,5*25+wall.y,k*25+wall.z);
+  }
+  for(int k=0;k<=8;k++){
+    wall.display(18*25+wall.x,5*25+wall.y,k*25+wall.z);
+  }
+  //19-21~25
+  for(int i=19;i<=23;i++){
+    for(int k=16;k<=24;k++){
+      wall.display(i*25+wall.x,5*25+wall.y,k*25+wall.z);
+    }
+  }
   // This draws the maze
 }
 
