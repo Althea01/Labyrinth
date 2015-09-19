@@ -362,6 +362,29 @@ void draw() {
       wall.display(i*25+wall.x,2*25+wall.y,k*25+wall.z);
     }
   }
+  
+  
+  
+  
+  //21-1~7
+  for(int i=-1;i<=5;i++){
+    for(int k=0;k<=24;k++){
+      wall.display(i*25+wall.x,3*25+wall.y,k*25+wall.z);
+    }
+  }
+  //21-8
+  for(int k=0;k<=4;k++){
+    wall.display(25*6+wall.x,2*25+wall.y,k*25+wall.z);
+  }
+  for(int k=6;k<=24;k++){
+    wall.display(25*6+wall.x,2*25+wall.y,k*25+wall.z);
+  }
+  //21-9~25
+  for(int i=7;i<=23;i++){
+    for(int k=0;k<=24;k++){
+      wall.display(i*25+wall.x,3*25+wall.y,k*25+wall.z);
+    }
+  }
   // This draws the maze
 }
 
