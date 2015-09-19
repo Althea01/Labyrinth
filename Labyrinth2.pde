@@ -302,11 +302,59 @@ void draw() {
       wall.display(i*25+wall.x,2*25+wall.y,k*25+wall.z);
     }
   }
+  //22-4
+  for(int k=0;k<=2;k++){
+    wall.display(25*2+wall.x,2*25+wall.y,k*25+wall.z);
+  }
+  for(int k=6;k<=24;k++){
+    wall.display(25*2+wall.x,2*25+wall.y,k*25+wall.z);
+  }
   //22-5~6
   for(int i=3;i<=4;i++){
     for(int k=0;k<=24;k++){
       wall.display(i*25+wall.x,2*25+wall.y,k*25+wall.z);
     }
+  }
+  //22-7
+  for(int k=0;k<=7;k++){
+    wall.display(25*5+wall.x,2*25+wall.y,k*25+wall.z);
+  }
+  for(int k=17;k<=24;k++){
+    wall.display(25*5+wall.x,2*25+wall.y,k*25+wall.z);
+  }
+  //22-8
+  for(int k=0;k<=4;k++){
+    wall.display(25*6+wall.x,2*25+wall.y,k*25+wall.z);
+  }
+    wall.display(25*6+wall.x,2*25+wall.y,6*25+wall.z);
+  for(int k=8;k<=15;k++){
+    wall.display(25*6+wall.x,2*25+wall.y,k*25+wall.z);
+  }
+  for(int k=17;k<=24;k++){
+    wall.display(25*6+wall.x,2*25+wall.y,k*25+wall.z);
+  }
+  //22-9~13
+  for(int i=7;i<=11;i++){  
+    for(int k=0;k<=5;k++){
+      wall.display(25*i+wall.x,2*25+wall.y,k*25+wall.z);
+    }
+  }
+  for(int i=7;i<=11;i++){  
+    for(int k=7;k<=15;k++){
+      wall.display(25*i+wall.x,2*25+wall.y,k*25+wall.z);
+    }
+  }
+  for(int i=7;i<=11;i++){  
+    for(int k=17;k<=24;k++){
+      wall.display(25*i+wall.x,2*25+wall.y,k*25+wall.z);
+    }
+  }
+  //22-14
+  for(int k=0;k<=5;k++){
+    wall.display(25*12+wall.x,2*25+wall.y,k*25+wall.z);
+  }
+  for(int k=17;k<=24;k++){
+    wall.display(25*12+wall.x,2*25+wall.y,k*25+wall.z);
   }
   //22-15~25
   for(int i=13;i<=23;i++){
