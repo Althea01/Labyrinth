@@ -1,16 +1,19 @@
 Box box;
 Wall wall;
-
+Instruction instruction;
 void setup() {
   size(1000, 600, P3D);
   box = new Box();
   wall = new Wall();
+  instruction = new Instruction();
 
 }
 
 void draw() {
   // This redraws the background everytime
   background(0);
+  
+  instruction.display();
   
   // This enables the canvas to rotate with the mouse
   translate(500,300,300);
@@ -549,6 +552,38 @@ void draw() {
       wall.display(i*25+wall.x,5*25+wall.y,k*25+wall.z);
     }
   }
+  
+  
+  
+  
+  //18-1~4
+  for(int i=-1;i<=2;i++){
+    for(int k=0;k<=24;k++){
+      wall.display(i*25+wall.x,6*25+wall.y,k*25+wall.z);
+    }
+  }
+  //18-5
+  for(int k=0;k<=7;k++){
+    wall.display(3*25+wall.x,6*25+wall.y,k*25+wall.z);
+  }
+  //18-6~7
+  //18-8
+  //18-9
+  //18-10
+  //18-10
+  //18-10
+  //18-10
+  //18-10
+  //18-10
+  //18-10
+  //18-10
+  //18-10
+  //18-10
+  //18-10
+  //18-10
+  //18-10
+  //18-10
+  //18-24~25
   // This draws the maze
 }
 
