@@ -1037,6 +1037,86 @@ void draw() {
       wall.display(i*25+wall.x,10*25+wall.y,k*25+wall.z);
     }
   }
+  
+  
+  
+  
+  //13-1~2
+  for(int i=-1;i<=0;i++){
+    for(int k=0;k<=24;k++){
+      wall.display(i*25+wall.x,11*25+wall.y,k*25+wall.z);
+    }
+  }
+  //13-3~10
+  for(int i=1;i<=8;i++){
+    wall.display(i*25+wall.x,11*25+wall.y,0*25+wall.z);
+  }
+  for(int i=1;i<=8;i++){
+    for(int k=2;k<=14;k++){
+      wall.display(i*25+wall.x,11*25+wall.y,k*25+wall.z);
+    }
+  }
+  for(int i=1;i<=8;i++){
+    for(int k=16;k<=24;k++){
+      wall.display(i*25+wall.x,11*25+wall.y,k*25+wall.z);
+    }
+  }
+  //13-11
+    wall.display(9*25+wall.x,11*25+wall.y,0*25+wall.z);
+  for(int k=2;k<=14;k++){
+    wall.display(9*25+wall.x,11*25+wall.y,k*25+wall.z);
+  }
+  //13-12
+    wall.display(10*25+wall.x,11*25+wall.y,0*25+wall.z);
+  for(int k=3;k<=13;k++){
+    wall.display(10*25+wall.x,11*25+wall.y,k*25+wall.z);
+  }
+  for(int k=16;k<=17;k++){
+    wall.display(10*25+wall.x,11*25+wall.y,k*25+wall.z);
+  }
+  for(int k=19;k<=24;k++){
+    wall.display(10*25+wall.x,11*25+wall.y,k*25+wall.z);
+  }
+  //13-13
+  for(int k=0;k<=1;k++){
+    wall.display(11*25+wall.x,11*25+wall.y,k*25+wall.z);
+  }
+  for(int k=4;k<=12;k++){
+    wall.display(11*25+wall.x,11*25+wall.y,k*25+wall.z);
+  }
+  for(int k=15;k<=17;k++){
+    wall.display(11*25+wall.x,11*25+wall.y,k*25+wall.z);
+  }
+  for(int k=19;k<=24;k++){
+    wall.display(11*25+wall.x,11*25+wall.y,k*25+wall.z);
+  }
+  //13-14
+  for(int k=0;k<=2;k++){
+    wall.display(12*25+wall.x,11*25+wall.y,k*25+wall.z);
+  }
+  for(int k=6;k<=10;k++){
+    wall.display(12*25+wall.x,11*25+wall.y,k*25+wall.z);
+  }
+  for(int k=14;k<=17;k++){
+    wall.display(12*25+wall.x,11*25+wall.y,k*25+wall.z);
+  }
+    wall.display(12*25+wall.x,11*25+wall.y,19*25+wall.z);
+  for(int k=21;k<=24;k++){
+    wall.display(12*25+wall.x,11*25+wall.y,k*25+wall.z);
+  }
+  //13-15
+  for(int k=0;k<=4;k++){
+    wall.display(13*25+wall.x,11*25+wall.y,k*25+wall.z);
+  }
+  for(int k=12;k<=24;k++){
+    wall.display(13*25+wall.x,11*25+wall.y,k*25+wall.z);
+  }
+  //13-16~25
+  for(int i=14;i<=23;i++){
+    for(int k=0;k<=24;k++){
+      wall.display(i*25+wall.x,11*25+wall.y,k*25+wall.z);
+    }
+  }
   // This draws the maze
 }
 
