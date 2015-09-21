@@ -1328,6 +1328,65 @@ void draw() {
       wall.display(i*25+wall.x,12*25+wall.y,k*25+wall.z);
     }
   }
+  
+  
+  
+  
+  //11-1~3
+  for(int i=-1;i<=1;i++){
+    for(int k=0;k<=24;k++){
+      wall.display(i*25+wall.x,13*25+wall.y,k*25+wall.z);
+    }
+  }
+  //11-4
+  for(int k=0;k<=7;k++){
+    wall.display(2*25+wall.x,13*25+wall.y,k*25+wall.z);
+  }
+  for(int k=22;k<=24;k++){
+    wall.display(2*25+wall.x,13*25+wall.y,k*25+wall.z);
+  }
+  //11-5~9
+  for(int i=3;i<=7;i++){
+    for(int k=0;k<=11;k++){
+      wall.display(i*25+wall.x,13*25+wall.y,k*25+wall.z);
+    }
+  }
+  for(int i=3;i<=7;i++){
+    for(int k=9;k<=24;k++){
+      wall.display(i*25+wall.x,13*25+wall.y,k*25+wall.z);
+    }
+  }
+  //11-10
+  for(int k=0;k<=7;k++){
+    wall.display(8*25+wall.x,13*25+wall.y,k*25+wall.z);
+  }
+  for(int k=22;k<=24;k++){
+    wall.display(8*25+wall.x,13*25+wall.y,k*25+wall.z);
+  }
+  //11-11~16
+  for(int i=9;i<=14;i++){
+    for(int k=0;k<=11;k++){
+      wall.display(i*25+wall.x,13*25+wall.y,k*25+wall.z);
+    }
+  }
+  for(int i=9;i<=14;i++){
+    for(int k=9;k<=24;k++){
+      wall.display(i*25+wall.x,13*25+wall.y,k*25+wall.z);
+    }
+  }
+  //11-17
+  for(int k=0;k<=7;k++){
+    wall.display(15*25+wall.x,13*25+wall.y,k*25+wall.z);
+  }
+  for(int k=22;k<=24;k++){
+    wall.display(15*25+wall.x,13*25+wall.y,k*25+wall.z);
+  }
+  //11-18~25
+  for(int i=16;i<=23;i++){
+    for(int k=0;k<=24;k++){
+      wall.display(i*25+wall.x,13*25+wall.y,k*25+wall.z);
+    }
+  }
   // This draws the maze
 }
 
