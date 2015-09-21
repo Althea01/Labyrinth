@@ -15,8 +15,8 @@ class Wall {
     translate(wallx, wally, wallz);
     if (abs(wallx)<50 && abs(wally)<50 && abs(wallz)<50){
       a = sqrt(sq(wallx)+sq(wally)+sq(wallz));
-      alpha = int(map(a, 25, 50, 255, 0));
-//      alpha = 255;
+//      alpha = int(map(a, 25, 50, 255, 0));
+      alpha = 255;
     } else {
       alpha = 0;
     }
