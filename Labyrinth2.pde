@@ -1117,6 +1117,217 @@ void draw() {
       wall.display(i*25+wall.x,11*25+wall.y,k*25+wall.z);
     }
   }
+  
+  
+  
+  
+  //12-1~3
+  for(int i=-1;i<=1;i++){
+    for(int k=0;k<=24;k++){
+      wall.display(i*25+wall.x,12*25+wall.y,k*25+wall.z);
+    }
+  }
+  //12-4
+  for(int k=0;k<=2;k++){
+    wall.display(2*25+wall.x,12*25+wall.y,k*25+wall.z);
+  }
+  for(int k=4;k<=12;k++){
+    wall.display(2*25+wall.x,12*25+wall.y,k*25+wall.z);
+  }
+  for(int k=14;k<=24;k++){
+    wall.display(2*25+wall.x,12*25+wall.y,k*25+wall.z);
+  }
+  //12-5
+  for(int k=0;k<=2;k++){
+    wall.display(3*25+wall.x,12*25+wall.y,k*25+wall.z);
+  }
+  for(int k=6;k<=10;k++){
+    wall.display(3*25+wall.x,12*25+wall.y,k*25+wall.z);
+  }
+  for(int k=14;k<=24;k++){
+    wall.display(3*25+wall.x,12*25+wall.y,k*25+wall.z);
+  }
+  //12-6
+  for(int k=0;k<=2;k++){
+    wall.display(4*25+wall.x,12*25+wall.y,k*25+wall.z);
+  }
+    wall.display(4*25+wall.x,12*25+wall.y,4*25+wall.z);
+  for(int k=6;k<=10;k++){
+    wall.display(4*25+wall.x,12*25+wall.y,k*25+wall.z);
+  }
+    wall.display(4*25+wall.x,12*25+wall.y,12*25+wall.z);
+  for(int k=14;k<=24;k++){
+    wall.display(4*25+wall.x,12*25+wall.y,k*25+wall.z);
+  }
+  //12-7
+  for(int k=0;k<=2;k++){
+    wall.display(5*25+wall.x,12*25+wall.y,k*25+wall.z);
+  }
+    wall.display(5*25+wall.x,12*25+wall.y,4*25+wall.z);
+  for(int k=7;k<=9;k++){
+    wall.display(5*25+wall.x,12*25+wall.y,k*25+wall.z);
+  }
+    wall.display(5*25+wall.x,12*25+wall.y,12*25+wall.z);
+  for(int k=14;k<=24;k++){
+    wall.display(5*25+wall.x,12*25+wall.y,k*25+wall.z);
+  }
+  //12-8~9
+  for(int i=6;i<=7;i++){
+    for(int k=0;k<=2;k++){
+      wall.display(i*25+wall.x,12*25+wall.y,k*25+wall.z);
+    }
+  }
+  for(int i=6;i<=7;i++){
+    for(int k=4;k<=5;k++){
+      wall.display(i*25+wall.x,12*25+wall.y,k*25+wall.z);
+    }
+  }
+  for(int i=6;i<=7;i++){
+    for(int k=7;k<=9;k++){
+      wall.display(i*25+wall.x,12*25+wall.y,k*25+wall.z);
+    }
+  }
+  for(int i=6;i<=7;i++){
+    for(int k=11;k<=12;k++){
+      wall.display(i*25+wall.x,12*25+wall.y,k*25+wall.z);
+    }
+  }
+  for(int i=6;i<=7;i++){
+    for(int k=14;k<=24;k++){
+      wall.display(i*25+wall.x,12*25+wall.y,k*25+wall.z);
+    }
+  }
+  //12-10
+  for(int k=0;k<=2;k++){
+    wall.display(8*25+wall.x,12*25+wall.y,k*25+wall.z);
+  }
+  for(int k=4;k<=5;k++){
+    wall.display(8*25+wall.x,12*25+wall.y,k*25+wall.z);
+  }
+    wall.display(8*25+wall.x,12*25+wall.y,8*25+wall.z);
+  for(int k=11;k<=12;k++){
+    wall.display(8*25+wall.x,12*25+wall.y,k*25+wall.z);
+  }
+  for(int k=14;k<=24;k++){
+    wall.display(8*25+wall.x,12*25+wall.y,k*25+wall.z);
+  }
+  //12-11~13
+  for(int i=9;i<=11;i++){
+    for(int k=0;k<=2;k++){
+      wall.display(i*25+wall.x,12*25+wall.y,k*25+wall.z);
+    }
+  }
+  for(int i=9;i<=11;i++){
+    for(int k=4;k<=6;k++){
+      wall.display(i*25+wall.x,12*25+wall.y,k*25+wall.z);
+    }
+  }
+  for(int i=9;i<=11;i++){
+    wall.display(i*25+wall.x,12*25+wall.y,8*25+wall.z);
+  }
+  for(int i=9;i<=11;i++){
+    for(int k=10;k<=12;k++){
+      wall.display(i*25+wall.x,12*25+wall.y,k*25+wall.z);
+    }
+  }
+  for(int i=9;i<=11;i++){
+    for(int k=14;k<=24;k++){
+      wall.display(i*25+wall.x,12*25+wall.y,k*25+wall.z);
+    }
+  }
+  //12-14
+  for(int k=0;k<=2;k++){
+    wall.display(12*25+wall.x,12*25+wall.y,k*25+wall.z);
+  }
+  for(int k=4;k<=6;k++){
+    wall.display(12*25+wall.x,12*25+wall.y,k*25+wall.z);
+  }
+  for(int k=10;k<=12;k++){
+    wall.display(12*25+wall.x,12*25+wall.y,k*25+wall.z);
+  }
+  for(int k=14;k<=19;k++){
+    wall.display(12*25+wall.x,12*25+wall.y,k*25+wall.z);
+  }
+  for(int k=21;k<=24;k++){
+    wall.display(12*25+wall.x,12*25+wall.y,k*25+wall.z);
+  }
+  //12-15
+  for(int k=0;k<=2;k++){
+    wall.display(12*25+wall.x,12*25+wall.y,k*25+wall.z);
+  }
+  for(int k=4;k<=7;k++){
+    wall.display(12*25+wall.x,12*25+wall.y,k*25+wall.z);
+  }
+  for(int k=9;k<=12;k++){
+    wall.display(12*25+wall.x,12*25+wall.y,k*25+wall.z);
+  }
+  for(int k=14;k<=19;k++){
+    wall.display(12*25+wall.x,12*25+wall.y,k*25+wall.z);
+  }
+  for(int k=21;k<=24;k++){
+    wall.display(12*25+wall.x,12*25+wall.y,k*25+wall.z);
+  }
+  //12-16
+  for(int k=0;k<=2;k++){
+    wall.display(12*25+wall.x,12*25+wall.y,k*25+wall.z);
+  }
+  for(int k=4;k<=7;k++){
+    wall.display(12*25+wall.x,12*25+wall.y,k*25+wall.z);
+  }
+  for(int k=9;k<=12;k++){
+    wall.display(12*25+wall.x,12*25+wall.y,k*25+wall.z);
+  }
+  for(int k=14;k<=19;k++){
+    wall.display(12*25+wall.x,12*25+wall.y,k*25+wall.z);
+  }
+  for(int k=22;k<=24;k++){
+    wall.display(12*25+wall.x,12*25+wall.y,k*25+wall.z);
+  }
+  //12-17
+  for(int k=0;k<=2;k++){
+    wall.display(12*25+wall.x,12*25+wall.y,k*25+wall.z);
+  }
+  for(int k=4;k<=7;k++){
+    wall.display(12*25+wall.x,12*25+wall.y,k*25+wall.z);
+  }
+  for(int k=9;k<=12;k++){
+    wall.display(12*25+wall.x,12*25+wall.y,k*25+wall.z);
+  }
+  for(int k=14;k<=20;k++){
+    wall.display(12*25+wall.x,12*25+wall.y,k*25+wall.z);
+  }
+  for(int k=22;k<=24;k++){
+    wall.display(12*25+wall.x,12*25+wall.y,k*25+wall.z);
+  }
+  //12-18
+  for(int k=0;k<=2;k++){
+    wall.display(12*25+wall.x,12*25+wall.y,k*25+wall.z);
+  }
+  for(int k=4;k<=7;k++){
+    wall.display(12*25+wall.x,12*25+wall.y,k*25+wall.z);
+  }
+  for(int k=9;k<=12;k++){
+    wall.display(12*25+wall.x,12*25+wall.y,k*25+wall.z);
+  }
+  for(int k=14;k<=24;k++){
+    wall.display(12*25+wall.x,12*25+wall.y,k*25+wall.z);
+  }
+  //12-19
+  for(int k=0;k<=2;k++){
+    wall.display(12*25+wall.x,12*25+wall.y,k*25+wall.z);
+  }
+  for(int k=4;k<=12;k++){
+    wall.display(12*25+wall.x,12*25+wall.y,k*25+wall.z);
+  }
+  for(int k=14;k<=24;k++){
+    wall.display(12*25+wall.x,12*25+wall.y,k*25+wall.z);
+  }
+  //12-20~25
+  for(int i=18;i<=23;i++){
+    for(int k=0;k<=24;k++){
+      wall.display(i*25+wall.x,12*25+wall.y,k*25+wall.z);
+    }
+  }
   // This draws the maze
 }
 
